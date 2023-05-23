@@ -1,6 +1,10 @@
 body {background-color: #F7C955}
 
-.marron {color: #725819}
+.titulo1 {font-family: 'Lobster Two', cursive;
+color: #725819; }
+
+.marron {color: #725819;
+display: flex; justify-content: center;}
 
 .negro {color: #080600}
 
@@ -14,46 +18,77 @@ h2 {text-decoration: underline;}
 
 .imagen {width: auto;}
 
-.datos {display: flex; flex-direction: column-reverse;}
+.datos {display: flex; flex-direction: column;
+    height: 90%;
+   font-family: "Lobster Two"}
 
 header {background-color: white
         padding: 30px;
         border: 3px solid ;
       display: flex; justify-content: space-around;}
 
-.margensuperior { display:flex;justify-content: space-around;}
+.margensuperior { display:flex;justify-content: space-between;}
 
 .logo { width: 75px }
 
-.redes { width: 60px }
+.redes {height:  50px; display: flex; justify-content: space-between;}
 
 .margeninferior {display: flex;justify-content: space-between;}
 
-footer {display: flex;justify-content: space-between;}
+footer {display: flex;justify-content: space-around;;}
 
 
 nav {background-color: white;
      margin: 30px ;
      padding: 20px ;
-     border: 3px solid;}
+     border: 3px solid;
+   font-size: 2vw }
 
 nav { display: flex; justify-content: space-between;}
 
 section { background-color: white;
       margin: 30px ;
       padding: 20px ;
-      border: 3px solid;}
+      border: 3px solid;
+      width: 40vw;
+    display: flex; justify-content: center; flex-direction: column;
+  float: left;}
 
 aside {background-color: orange;
        margin: 30px ;
        padding: 20px ;
-       border: 3px solid; }
+       border: 3px solid;
+       width: 40vw;
+     float: right;}
 
 footer {background-color: green;
-       margin: 30 px;
+       margin:30 px;
        padding: 20px;
-       border: 3px solid;}
+       border: 3px solid;
+       height: 165px;
+       width: 100%;
+       display: flex; align-self: flex-end;
+     }
+
+.mapa      {height: 95% }
 
 .fixed {position: fixed;
 bottom: 0;
 right: 0;}
+
+a:link { color: blue;}
+
+a:visited { color:  red;}
+
+a:active { color: pink; }
+
+a:hover {background-color: yellow; }
+
+a { text-decoration: none; }
+
+.foto1 {width: 95%; justify-content: center; align-items: center;}
+
+.texto { font-size: 2vw;
+ font-family: 'Lobster Two', cursive; }
+
+.github { color: white}
