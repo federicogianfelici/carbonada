@@ -4,13 +4,11 @@ body {background-color: #F7C955}
 color: #725819; }
 
 .marron {color: #725819;
-display: flex; justify-content: center;}
+display: flex; justify-content: center;
+        font-size: 3vw;}
 
-.negro {color: #080600}
-
-.marron { font-size: 3vw; }
-
-.negro { font-size: 2vw; }
+.negro {color: #080600;
+        font-size: 2vw;}
 
 h1 {text-decoration: underline;}
 
@@ -25,7 +23,7 @@ h2 {text-decoration: underline;}
 header {background-color: white
         padding: 30px;
         border: 3px solid ;
-      display: flex; justify-content: space-around;}
+        display: flex; justify-content: space-around; }
 
 .margensuperior { display:flex;justify-content: space-between;}
 
@@ -35,24 +33,23 @@ header {background-color: white
 
 .margeninferior {display: flex;justify-content: space-between;}
 
-footer {display: flex;justify-content: space-around;;}
-
 
 nav {background-color: white;
      margin: 30px ;
      padding: 20px ;
      border: 3px solid;
-   font-size: 2vw }
-
-nav { display: flex; justify-content: space-between;}
+     font-size: 2vw;
+     display: flex; justify-content: space-between;
+  flex-flow: wrap;}
 
 section { background-color: white;
       margin: 30px ;
       padding: 20px ;
       border: 3px solid;
       width: 40vw;
-    display: flex; justify-content: center; flex-direction: column;
-  float: left;}
+      display: flex; justify-content: center; flex-direction: column;
+      float: left;
+       flex-flow: wrap;}
 
 aside {background-color: orange;
        margin: 30px ;
@@ -68,7 +65,8 @@ footer {background-color: green;
        height: 165px;
        width: 100%;
        display: flex; align-self: flex-end;
-     }
+       display: flex;justify-content: space-around;
+       flex-flow: wrap;}
 
 .mapa      {height: 95% }
 
@@ -91,4 +89,14 @@ a { text-decoration: none; }
 .texto { font-size: 2vw;
  font-family: 'Lobster Two', cursive; }
 
-.github { color: white}
+.github { color: white }
+
+@media  ( max-width: 575px ) { .mapa { display: none; } }
+
+@media ( min-width: 575px ) {.fixed { display: none; } }
+
+@media ( max-width: 768px ) { body  {background-color: azure; }}
+
+@media ( min-witdh: 992px ) {.texto { font-family: 'Rowdies', cursive;}  }
+ 
+@media ( max-width 575px )  { .yotube { display: flex; justify-content: center;}  }
