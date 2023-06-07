@@ -40,7 +40,7 @@ nav {background-color: white;
      border: 3px solid;
      font-size: 2vw;
      display: flex; justify-content: space-between;
-  flex-flow: wrap;}
+     flex-flow: wrap;}
 
 section { background-color: white;
       margin: 30px ;
@@ -100,3 +100,4 @@ a { text-decoration: none; }
 @media ( min-witdh: 992px ) {.texto { font-family: 'Rowdies', cursive;}  }
  
 @media ( max-width 575px )  { .yotube { display: flex; justify-content: center;}  }
+
